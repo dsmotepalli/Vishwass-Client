@@ -1,0 +1,187 @@
+.outercomp {
+  width: 1440px;
+  height: 729px;
+  background-color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  .innercompleft {
+    position: relative;
+    width: 565px;
+    height: 420px;
+    top: 132px;
+    left: 118px;
+    justify-content: center;
+    align-items: center;
+  }
+  .innercompright {
+    width: 650px;
+    height: 729px;
+    left: 790px;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
+    .formouter {
+      position: absolute;
+      width: 400px;
+      height: 592px;
+      top: 68.96px;
+      left: 854px;
+      gap: 25px;
+      display: flex;
+      flex-direction: column;
+      .outer {
+        width: 294px;
+        height: 134px;
+        gap: 2px;
+
+        .txt {
+          width: 278px;
+          height: 108px;
+          font-family: sans-serif;
+          font-size: 36px;
+          font-weight: 400;
+          line-height: 54px;
+          text-align: left;
+          color: #000000;
+        }
+
+        .txt2 {
+          width: 294px;
+          height: 24px;
+          font-family: sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0.01em;
+          text-align: left;
+          color: #7e8b9e;
+        }
+      }
+      .inner {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 174px;
+        gap: 24px;
+        border-radius: 6px;
+        div > div {
+          width: 93.5%;
+          height: 40px;
+          top: 23px;
+          padding: 0px 12px 0px 12px;
+          gap: 10px;
+          border-radius: 6px 0px 0px 0px;
+          border: 1px 0px 0px 0px;
+          opacity: 0px;
+          background-color: var(--Box-Bg, #ffffff);
+          border: 1px solid rgba(214, 225, 255, 1);
+          border-radius: 5px;
+        }
+        label {
+          width: 219px;
+          height: 21px;
+          left: 0.5px;
+          font-family: sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          text-align: left;
+        }
+        input {
+          width: 100%;
+          height: 90%;
+          border: 0px;
+          background-color: transparent;
+          border: transparent;
+        }
+        input:focus {
+          outline: none;
+        }
+        .usersvg {
+          width: 16px;
+          height: 16px;
+          cursor: pointer;
+        }
+        a {
+          text-decoration: none;
+          color: rgba(24, 119, 242, 1);
+          font-family: sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          display: flex;
+          justify-content: flex-end;
+          width: 100%;
+        }
+      }
+      .Remember {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+        color: rgba(163, 163, 163, 1);
+
+        span {
+          color: rgba(24, 119, 242, 1);
+        }
+        input {
+          width: 14px;
+          height: 14px;
+          gap: 0px;
+          border-radius: 1.59px 0px 0px 0px;
+          border: 0.8px 0px 0px 0px;
+          opacity: 0px;
+          border: 0.8px solid rgba(203, 209, 216, 1);
+          color: rgba(250, 250, 252, 1);
+        }
+      }
+      .loginbtn {
+        width: 400px;
+        height: 40px;
+        padding: 10px 8px 10px 8px;
+        gap: 8px;
+        border-radius: 6.36px;
+        border: 0;
+        background-color: rgba(53, 104, 255, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        cursor: pointer;
+      }
+      .or {
+        width: 400px;
+        height: 22px;
+        gap: 8px;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 21.6px;
+        text-align: left;
+        color: rgba(126, 139, 158, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .logingoogle {
+        width: 400px;
+        height: 45.4px;
+        padding: 6px 19px 6px 12px;
+        border-radius: 6.36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        border: 0.8px solid rgba(224, 227, 232, 1);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 25.2px;
+        text-align: center;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+}

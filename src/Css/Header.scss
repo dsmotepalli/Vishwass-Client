@@ -1,0 +1,35 @@
+$bgcolor: #eef9ff;
+
+.header {
+  display: flex;
+  box-shadow: 4px 4px 4px 0px rgba(14, 43, 147, 0.1);
+  width: 1440px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+  justify-items: center;
+  align-items: center;
+}
+.bgcolor {
+  background-color: $bgcolor;
+}
+
+.nav {
+  display: flex;
+  width: Fixed (547px) px;
+  height: Fixed (40px) px;
+  top: 20.5px;
+  left: 319px;
+  gap: 12px;
+  opacity: 0px;
+}
+
+.subcat {
+  width: Hug (120px) px;
+  height: Hug (43px) px;
+  padding: 4px 10px 12px 10px;
+  gap: 12px;
+  opacity: 0px;
+  border: 1px solid rgba(70, 100, 234, 1);
+  color: #687078;
+}
